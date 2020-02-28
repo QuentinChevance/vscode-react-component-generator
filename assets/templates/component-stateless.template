@@ -1,19 +1,7 @@
-import React from {quotes}react{quotes};
-import PropTypes from {quotes}prop-types{quotes};
-//import { Test } from './{componentName}.styles';
+import React from {quotes}react{quotes}
 
-const {componentName} = (props) => (
-  <div className="{componentName}Wrapper">
-    Test content
-  </div>
-);
+function {componentName}() {
+	return <div>{componentName}</div>
+}
 
-{componentName}.propTypes = {
-  // bla: PropTypes.string,
-};
-
-{componentName}.defaultProps = {
-  // bla: 'test',
-};
-
-export default {componentName};
+export default {componentName}
